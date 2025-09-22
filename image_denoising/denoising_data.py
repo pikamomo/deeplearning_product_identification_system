@@ -19,7 +19,7 @@ class ImageDataSet(Dataset):
         super(ImageDataSet, self).__init__()
         self.main_dir = image_dir
         self.transform = transform
-        self.image_names = os.listdir(image_dir)
+        self.image_names = sorted_alphanum(os.listdir(self.main_dir))
 
     def __len__(self):
         return len(self.image_names)
