@@ -37,5 +37,11 @@ class ImageDataSet(Dataset):
         return noise_img, tenser_img
 
 if __name__ == "__main__":
-    image_names = os.listdir("../common/dataset")
-    print(sorted_alphanum(image_names))
+    # image_names = os.listdir("../common/dataset")
+    import torchvision.transforms as transforms
+    transform = transforms.Compose([
+        transforms.Resize((IMG_HEIGHT, IMG_WEDTH)),
+        transforms.ToTensor()
+    ])
+    dataset = ImageDataSet(IMG_PATH, transform=transform)
+    print(len(dataset))
