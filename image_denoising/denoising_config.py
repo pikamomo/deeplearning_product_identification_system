@@ -12,5 +12,5 @@ EPOCHS = 20
 TRAIN_BATCH_SIZE = 32
 TEST_BATCH_SIZE = 32
 
-PROJECT_PACKAGE_NAME = "image_denoising"
+PACKAGE_NAME = "image_denoising"
 DENOISER_MODEL_NAME = "denoiser.pt"

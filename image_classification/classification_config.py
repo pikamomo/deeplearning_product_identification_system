@@ -12,7 +12,7 @@ EPOCHS = 10
 TRAIN_BATCH_SIZE = 128
 TEST_BATCH_SIZE = 128
 
-PROJECT_PACKAGE_NAME = "image_classification"
+PACKAGE_NAME = "image_classification"
 DENOISER_MODEL_NAME = "classifier.pt"
 
 
