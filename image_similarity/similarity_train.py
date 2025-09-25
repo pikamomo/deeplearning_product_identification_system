@@ -68,6 +68,6 @@ if __name__ == '__main__':
 
     embeddings = create_embeading(encoder, full_loader, device)
     vec_embeddings = embeddings.detach().cpu().numpy().reshape(embeddings.shape[0], -1)
-    np.save(EMBEADDING_NAME, vec_embeddings)
+    np.save(EMBEDDING_NAME, vec_embeddings)
     print(embeddings.shape)
     print(vec_embeddings.shape)

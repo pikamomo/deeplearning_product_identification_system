@@ -13,7 +13,7 @@ TRAIN_BATCH_SIZE = 128
 TEST_BATCH_SIZE = 128
 
 PACKAGE_NAME = "image_classification"
-DENOISER_MODEL_NAME = "classifier.pt"
+CLASSIFIER_MODEL_NAME = "classifier.pt"
 
 
 classification_names = {

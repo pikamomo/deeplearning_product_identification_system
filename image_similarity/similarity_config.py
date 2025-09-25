@@ -16,4 +16,4 @@ FULL_BATCH_SIZE = 32
 PACKAGE_NAME = "image_similarity"
 ENCODER_MODEL_NAME = "deep_encoder"
 DECODER_MODEL_NAME = "deep_decoder"
-EMBEADDING_NAME = 'data_embedding.npy'
+EMBEDDING_NAME = 'data_embedding.npy'

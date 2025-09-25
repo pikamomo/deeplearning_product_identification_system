@@ -57,6 +57,6 @@ if __name__ == '__main__':
 
         if test_loss < min_test_loss:
             min_test_loss = test_loss
-            torch.save(classifier.state_dict(), DENOISER_MODEL_NAME)
+            torch.save(classifier.state_dict(), CLASSIFIER_MODEL_NAME)
 
     print("finish training")
